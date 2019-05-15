@@ -1,0 +1,30 @@
+{
+	"name": "SQLdwDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLdwLS",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "OrderID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CustomerID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "OrderDate",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Orders]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
