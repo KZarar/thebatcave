@@ -1,0 +1,12 @@
+{
+"List": {
+      "listid": "enter-marketing-list-GUID-with-double-quotes-surrounding-it",
+      "@odata.type": "Microsoft.Dynamics.CRM.list"
+},
+"Members": [
+      {
+      "contactid": "enter-contactID-guid",
+      "@odata.type": "Microsoft.Dynamics.CRM.contact"
+      }
+   ]
+}
